@@ -1,0 +1,49 @@
+.container {
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+}
+
+.icon__list {
+    margin-right: 4vw;
+}
+
+.icon__item {
+    margin-top: 1vw;
+    cursor: pointer;
+    filter: grayscale(1);
+}
+
+.content__item {
+    display: none;
+}
+
+.active {
+    display: block;
+    filter: none;
+}
+
+.hide {
+    display: none;
+}
+
+/* JQuery Data Attribute */
+.info-container {
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+}
+
+.sub-info {
+    margin-right: 4vw;
+}
+
+.sub-info__item {
+    margin-top: 1vw;
+    cursor: pointer;
+    filter: grayscale(1);
+}
+
+.active {
+    filter: grayscale(0);
+}
